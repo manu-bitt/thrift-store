@@ -101,9 +101,7 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Manu Pal**  
-📧 [manu.pal@adypu.edu.in](mailto:manu.pal@adypu.edu.in)  
-🔗 [GitHub](https://github.com/manu-bitt)
+**Manu Pal**  , **Meet Yadavl** , **Harsh Vardhan Singh** , **Pankaj Yadav** 
 
 ---
 

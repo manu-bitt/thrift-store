@@ -93,12 +93,6 @@ If you'd like to collaborate, fork this repo, create a new branch, and submit a 
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 👨‍💻 Author
 
 **Manu Pal**  , **Meet Yadavl** , **Harsh Vardhan Singh** , **Pankaj Yadav** 

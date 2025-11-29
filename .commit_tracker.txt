@@ -13,3 +13,4 @@ manu-bitt: feat: configure environment variables
 manu-bitt: feat: add error handling in product controller
 manu-bitt: feat: implement product validation
 manu-bitt: feat: add database connection error handling
+manu-bitt: feat: create auth middleware for protected routes

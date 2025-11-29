@@ -21,3 +21,4 @@ manu-bitt: feat: configure server port and MongoDB URI
 manu-bitt: feat: add product deletion and update routes
 Meet00028: feat: setup React app with routing
 Meet00028: feat: create Navbar component with navigation
+Meet00028: feat: implement Home page with hero section

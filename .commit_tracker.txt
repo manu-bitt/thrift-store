@@ -19,3 +19,4 @@ manu-bitt: feat: implement password comparison method
 manu-bitt: feat: add JWT token generation
 manu-bitt: feat: configure server port and MongoDB URI
 manu-bitt: feat: add product deletion and update routes
+Meet00028: feat: setup React app with routing

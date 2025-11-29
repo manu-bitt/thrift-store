@@ -52,3 +52,4 @@ pankajyadav2006: style: implement responsive design for mobile
 pankajyadav2006: style: update global CSS with black theme
 pankajyadav2006: style: enhance button styles and interactions
 pankajyadav2006: style: improve form input styling
+pankajyadav2006: style: add loading spinner animations

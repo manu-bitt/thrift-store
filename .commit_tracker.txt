@@ -44,3 +44,4 @@ pankajyadav2006: style: update Navbar with modern design
 pankajyadav2006: style: enhance Home page hero section
 pankajyadav2006: style: improve ProductCard styling
 pankajyadav2006: style: update Cart page layout
+pankajyadav2006: style: enhance Checkout page design

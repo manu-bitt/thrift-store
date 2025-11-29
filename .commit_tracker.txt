@@ -71,3 +71,4 @@ harshcoder-harsh: fix: correct image error fallback handling
 harshcoder-harsh: fix: resolve form validation errors
 harshcoder-harsh: fix: fix responsive layout issues
 harshcoder-harsh: fix: correct price formatting
+harshcoder-harsh: fix: resolve category filter functionality

@@ -12,10 +12,19 @@ import authRoutes from "./routes/authRoutes.js";
 dotenv.config();
 const app = express();
 
+// CORS configuration - allow frontend URLs
+const allowedOrigins = [
+  "http://localhost:3000",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
 app.use(cors({
-  origin: "*",
+  origin: process.env.NODE_ENV === "production" 
+    ? allowedOrigins.length > 0 ? allowedOrigins : "*"
+    : "*",
   methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
 }));
 app.use(express.json());
 

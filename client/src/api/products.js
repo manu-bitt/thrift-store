@@ -1,8 +1,8 @@
-const API_URL = "http://localhost:5001/api/products";
+import { API_ENDPOINTS } from "../config/api";
 
 export const getProducts = async () => {
   try {
-    const res = await fetch(API_URL);
+    const res = await fetch(API_ENDPOINTS.PRODUCTS);
     if (!res.ok) throw new Error("Failed to fetch products");
     return await res.json();
   } catch (err) {
@@ -13,7 +13,7 @@ export const getProducts = async () => {
 
 export const addProduct = async (product) => {
   try {
-    const res = await fetch("http://localhost:5001/api/products", {
+    const res = await fetch(API_ENDPOINTS.PRODUCTS, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product),

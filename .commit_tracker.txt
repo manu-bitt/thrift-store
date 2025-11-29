@@ -49,3 +49,4 @@ pankajyadav2006: style: improve Wishlist page UI
 pankajyadav2006: style: update Login and Signup forms
 pankajyadav2006: style: add hover effects and transitions
 pankajyadav2006: style: implement responsive design for mobile
+pankajyadav2006: style: update global CSS with black theme

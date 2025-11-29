@@ -74,3 +74,4 @@ harshcoder-harsh: fix: correct price formatting
 harshcoder-harsh: fix: resolve category filter functionality
 harshcoder-harsh: fix: fix search functionality
 harshcoder-harsh: fix: correct checkout form submission
+harshcoder-harsh: fix: resolve wishlist badge display

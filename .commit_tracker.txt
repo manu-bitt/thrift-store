@@ -46,3 +46,4 @@ pankajyadav2006: style: improve ProductCard styling
 pankajyadav2006: style: update Cart page layout
 pankajyadav2006: style: enhance Checkout page design
 pankajyadav2006: style: improve Wishlist page UI
+pankajyadav2006: style: update Login and Signup forms

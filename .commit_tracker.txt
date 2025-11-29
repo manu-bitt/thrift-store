@@ -7,3 +7,4 @@ manu-bitt: feat: add CORS middleware configuration
 manu-bitt: feat: create seed script for sample products
 manu-bitt: feat: add User model with password hashing
 manu-bitt: feat: implement JWT authentication middleware
+manu-bitt: feat: create auth routes (signup, login, profile)

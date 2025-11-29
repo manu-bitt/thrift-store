@@ -1,46 +1,136 @@
-# Getting Started with Create React App
+# Thrift Store Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack thrift store application built with React (frontend) and Node.js/Express (backend) with MongoDB database.
+
+## Features
+
+- 🛍️ Browse and shop for pre-loved items
+- 🛒 Shopping cart functionality
+- 💖 Wishlist management
+- 📦 Sell your own items
+- 💳 Checkout process
+- 📱 Responsive design
+
+## Tech Stack
+
+### Frontend
+- React 18
+- React Router
+- Material-UI
+- Context API for state management
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- CORS enabled
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB (local installation or MongoDB Atlas)
+- npm or yarn
+
+### Backend Setup
+
+1. Navigate to the server directory:
+```bash
+cd server
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file in the `server` directory (already created):
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/thriftstore
+PORT=5000
+```
+
+4. Make sure MongoDB is running on your system. If using MongoDB Atlas, update the `MONGO_URI` in `.env`.
+
+5. Seed the database with sample products (optional):
+```bash
+node seed.js
+```
+
+6. Start the server:
+```bash
+npm start
+# or for development with auto-reload:
+npm run dev
+```
+
+The server will run on `http://localhost:5000`
+
+### Frontend Setup
+
+1. Navigate to the client directory:
+```bash
+cd client
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The frontend will run on `http://localhost:3000`
+
+## Project Structure
+
+```
+thrift-store/
+├── client/                 # React frontend
+│   ├── src/
+│   │   ├── api/           # API calls
+│   │   ├── components/    # Reusable components
+│   │   ├── context/       # Context providers
+│   │   ├── pages/         # Page components
+│   │   └── App.jsx        # Main app component
+│   └── package.json
+├── server/                 # Node.js backend
+│   ├── controllers/       # Route controllers
+│   ├── models/           # Mongoose models
+│   ├── routes/           # API routes
+│   ├── seed.js           # Database seeding script
+│   ├── server.js         # Express server
+│   └── package.json
+└── README.md
+```
+
+## API Endpoints
+
+- `GET /api/products` - Get all products
+- `POST /api/products` - Add a new product
 
 ## Available Scripts
 
-In the project directory, you can run:
+### Backend
+- `npm start` - Start the server
+- `npm run dev` - Start server with nodemon (auto-reload)
 
-### `npm start`
+### Frontend
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run tests
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Notes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- The frontend is configured to connect to `http://localhost:5000` for API calls
+- Cart and Wishlist data are stored in browser localStorage
+- Make sure both frontend and backend servers are running simultaneously
 
-### `npm test`
+## Troubleshooting
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **MongoDB Connection Error**: Ensure MongoDB is running and the connection string in `.env` is correct
+2. **CORS Errors**: The backend has CORS enabled for all origins. If issues persist, check the CORS configuration in `server.js`
+3. **Port Already in Use**: Change the PORT in `.env` file if port 5000 is already in use

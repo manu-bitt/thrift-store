@@ -31,3 +31,4 @@ Meet00028: feat: implement Cart page with quantity controls
 Meet00028: feat: create Wishlist page
 Meet00028: feat: add ProductDetails page
 Meet00028: feat: implement Checkout page
+Meet00028: feat: create Sell page for adding products

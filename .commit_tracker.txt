@@ -9,3 +9,4 @@ manu-bitt: feat: add User model with password hashing
 manu-bitt: feat: implement JWT authentication middleware
 manu-bitt: feat: create auth routes (signup, login, profile)
 manu-bitt: feat: add authentication controller with bcrypt
+manu-bitt: feat: configure environment variables

@@ -40,3 +40,4 @@ Meet00028: feat: implement image error handling
 Meet00028: feat: add loading states and error handling
 Meet00028: feat: create responsive product grid layout
 pankajyadav2006: style: implement black theme across all pages
+pankajyadav2006: style: update Navbar with modern design

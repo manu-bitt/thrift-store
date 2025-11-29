@@ -65,3 +65,4 @@ harshcoder-harsh: fix: update API URL to correct port
 harshcoder-harsh: fix: resolve image loading issues
 harshcoder-harsh: fix: fix wishlist context localStorage
 harshcoder-harsh: fix: correct cart quantity calculations
+harshcoder-harsh: fix: resolve authentication token handling

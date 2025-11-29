@@ -62,3 +62,4 @@ pankajyadav2006: style: polish overall UI/UX
 harshcoder-harsh: fix: resolve product card click navigation error
 harshcoder-harsh: fix: correct ProductDetails page rendering
 harshcoder-harsh: fix: update API URL to correct port
+harshcoder-harsh: fix: resolve image loading issues

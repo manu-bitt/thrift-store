@@ -57,3 +57,4 @@ pankajyadav2006: style: update empty state designs
 pankajyadav2006: style: enhance product image display
 pankajyadav2006: style: improve typography and spacing
 pankajyadav2006: style: add box shadows and borders
+pankajyadav2006: style: update color scheme consistently

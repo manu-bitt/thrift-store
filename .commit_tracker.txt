@@ -16,3 +16,4 @@ manu-bitt: feat: add database connection error handling
 manu-bitt: feat: create auth middleware for protected routes
 manu-bitt: feat: add user profile endpoint
 manu-bitt: feat: implement password comparison method
+manu-bitt: feat: add JWT token generation

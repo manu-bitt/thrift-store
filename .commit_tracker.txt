@@ -34,3 +34,4 @@ Meet00028: feat: implement Checkout page
 Meet00028: feat: create Sell page for adding products
 Meet00028: feat: add Login and Signup pages
 Meet00028: feat: implement AuthContext for user management
+Meet00028: feat: add protected routes functionality

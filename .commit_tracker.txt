@@ -67,3 +67,4 @@ harshcoder-harsh: fix: fix wishlist context localStorage
 harshcoder-harsh: fix: correct cart quantity calculations
 harshcoder-harsh: fix: resolve authentication token handling
 harshcoder-harsh: fix: fix product ID matching in details page
+harshcoder-harsh: fix: correct image error fallback handling

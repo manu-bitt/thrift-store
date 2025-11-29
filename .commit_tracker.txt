@@ -2,3 +2,4 @@ Commit tracker
 manu-bitt: feat: initialize Express server with basic setup
 manu-bitt: feat: add MongoDB connection with Mongoose
 manu-bitt: feat: create Product model schema
+manu-bitt: feat: implement product routes and controllers

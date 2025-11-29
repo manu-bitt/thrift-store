@@ -54,3 +54,4 @@ pankajyadav2006: style: enhance button styles and interactions
 pankajyadav2006: style: improve form input styling
 pankajyadav2006: style: add loading spinner animations
 pankajyadav2006: style: update empty state designs
+pankajyadav2006: style: enhance product image display

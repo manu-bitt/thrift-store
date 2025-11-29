@@ -24,3 +24,4 @@ Meet00028: feat: create Navbar component with navigation
 Meet00028: feat: implement Home page with hero section
 Meet00028: feat: create Shop page with product grid
 Meet00028: feat: add ProductCard component
+Meet00028: feat: implement Cart context and functionality

@@ -11,7 +11,68 @@ This guide will help you deploy both the frontend and backend of the Thrift Stor
 
 ---
 
-## 🔧 Backend Deployment (Render)
+## 🔧 Backend Deployment Options
+
+### Option A: Railway (Recommended - Best Free Tier) ⭐
+
+Railway offers **$5 free credit monthly** - perfect for this project!
+
+1. **Sign up**: https://railway.app (use GitHub to sign in)
+2. **New Project** → "Deploy from GitHub repo"
+3. **Select**: `manu-bitt/thrift-store`
+4. **Add Service** → Select the repository
+5. **Settings**:
+   - Root Directory: `server`
+   - Build Command: (auto-detected)
+   - Start Command: `npm start`
+6. **Variables Tab** → Add:
+   ```
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   NODE_ENV=production
+   PORT=10000
+   ```
+7. **Deploy** → Railway auto-deploys!
+8. **Copy your URL**: Click on the service → Copy the domain
+
+**Railway gives you**: `https://your-app.up.railway.app`
+
+---
+
+### Option B: Render (Free Tier - Limited)
+
+**Note**: Use "Web Service" NOT "Project" (Project requires premium)
+
+1. **Sign up/Login to Render**: https://render.com
+2. **Create New Web Service** (NOT Project):
+   - Click "New +" → "Web Service"
+   - Connect your GitHub repository: `manu-bitt/thrift-store`
+   - Select the repository
+
+3. **Configure Service**:
+   - **Name**: `thrift-store-api`
+   - **Root Directory**: `server`
+   - **Environment**: `Node`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
+   - **Plan**: Free (or paid if preferred)
+
+4. **Set Environment Variables**:
+   ```
+   NODE_ENV=production
+   MONGO_URI=your_mongodb_atlas_connection_string
+   JWT_SECRET=your_secret_key_here_make_it_long_and_random
+   PORT=10000
+   ```
+
+5. **Deploy**:
+   - Click "Create Web Service"
+   - Wait for deployment (5-10 minutes)
+   - Copy your service URL (e.g., `https://thrift-store-api.onrender.com`)
+
+**Note**: Render free tier spins down after 15 minutes of inactivity
+
+---
 
 ### Step 1: Prepare MongoDB Atlas
 

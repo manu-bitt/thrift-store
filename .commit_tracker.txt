@@ -77,3 +77,4 @@ harshcoder-harsh: fix: correct checkout form submission
 harshcoder-harsh: fix: resolve wishlist badge display
 harshcoder-harsh: fix: fix product seeding script
 harshcoder-harsh: fix: correct MongoDB connection string
+harshcoder-harsh: fix: resolve CORS configuration

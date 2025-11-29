@@ -4,3 +4,4 @@ manu-bitt: feat: add MongoDB connection with Mongoose
 manu-bitt: feat: create Product model schema
 manu-bitt: feat: implement product routes and controllers
 manu-bitt: feat: add CORS middleware configuration
+manu-bitt: feat: create seed script for sample products

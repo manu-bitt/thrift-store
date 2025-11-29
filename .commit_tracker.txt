@@ -1,2 +1,3 @@
 Commit tracker
 manu-bitt: feat: initialize Express server with basic setup
+manu-bitt: feat: add MongoDB connection with Mongoose

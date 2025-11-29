@@ -43,3 +43,4 @@ pankajyadav2006: style: implement black theme across all pages
 pankajyadav2006: style: update Navbar with modern design
 pankajyadav2006: style: enhance Home page hero section
 pankajyadav2006: style: improve ProductCard styling
+pankajyadav2006: style: update Cart page layout

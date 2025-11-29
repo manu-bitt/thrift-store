@@ -73,3 +73,4 @@ harshcoder-harsh: fix: fix responsive layout issues
 harshcoder-harsh: fix: correct price formatting
 harshcoder-harsh: fix: resolve category filter functionality
 harshcoder-harsh: fix: fix search functionality
+harshcoder-harsh: fix: correct checkout form submission

@@ -15,6 +15,8 @@ const app = express();
 // CORS configuration - allow frontend URLs
 const allowedOrigins = [
   "http://localhost:3000",
+  "https://thrift-store-alpha.vercel.app",
+  "https://thrift-store.vercel.app",
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
@@ -22,7 +24,7 @@ app.use(cors({
   origin: process.env.NODE_ENV === "production" 
     ? allowedOrigins.length > 0 ? allowedOrigins : "*"
     : "*",
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));

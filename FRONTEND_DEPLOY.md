@@ -15,9 +15,9 @@ Your backend is done! Now deploy the frontend.
    - **Output Directory**: `build` (auto-detected)
 6. **Environment Variables** → Add:
    ```
-   REACT_APP_API_URL=https://your-render-app.onrender.com/api
+   REACT_APP_API_URL=https://thrift-store-gprl.onrender.com/api
    ```
-   ⚠️ Replace `your-render-app` with your actual Render backend URL!
+   ✅ Your Render backend URL is already set above!
 7. **Deploy** → Wait 2-5 minutes
 8. **Done!** Your site will be live at: `https://your-project.vercel.app`
 

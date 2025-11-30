@@ -5,8 +5,9 @@
 1. Go to https://railway.app
 2. New Project → Deploy from GitHub repo
 3. Select: `manu-bitt/thrift-store`
-4. **Settings** → **Source**:
-   - Root Directory: `server`
+4. **IMPORTANT - Settings** → **Source**:
+   - **Root Directory**: `server` (MUST SET THIS!)
+   - If you don't see this option, go to Settings → Source → Root Directory
 5. **Variables** → Add:
    ```
    MONGO_URI=your_mongodb_connection_string

@@ -68,7 +68,7 @@ const ProductDetails = () => {
               alt={product.name}
               onError={() => setImageError(true)}
               style={styles.mainImage}
-            />
+                  />
           </div>
         </div>
 
